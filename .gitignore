@@ -1,0 +1,29 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+PreCare-main/PreCare/Config.plist
+*.xcconfig
+!*.example.xcconfig
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Local data / uploads ---
+precare__backend-main/precare.db
+precare__backend-main/uploads/*
+!precare__backend-main/uploads/.gitkeep
+
+# --- Xcode ---
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
